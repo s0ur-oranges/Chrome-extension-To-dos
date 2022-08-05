@@ -1,0 +1,12 @@
+{
+  "name": "Todos",
+  "version": "1.0.0",
+  "description": "A todo list",
+  "manifest_version": 3,
+  "author": "Jahanvi Chaudhary",
+  
+  "action":{
+      "default_popup": "index.html",
+      "default_title": "Todo List"
+  }
+}

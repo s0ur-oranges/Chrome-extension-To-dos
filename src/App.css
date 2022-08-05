@@ -1,0 +1,129 @@
+*
+{
+  background-color:#6E85B7;
+}
+
+.App
+{
+  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+.container
+{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:white;
+}
+
+.text
+{
+  font-size:20px;
+}
+
+.box{
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:85%;
+}
+
+.box>form 
+{
+  width:80%;
+
+}
+
+.box > form >input
+{
+  border-radius:5px;
+  border: 1px solid purple;
+  padding:10px;
+  margin-left:20px;
+  margin-right:10px;
+  color:black;
+  width:65%;
+  overflow-y:scroll;
+  overflow:wrap;
+
+}
+
+.box > form >button
+{
+  background-color:#904d95;
+  border-color:transparent;
+  color:white;
+  padding:10px;
+  border-radius:7px;
+  cursor:pointer;
+  flex:0.3;
+  
+}
+
+.box > form >button:hover
+{
+   opacity:65%;
+  
+}
+
+.todo
+{
+  width:75%;
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  margin-bottom:10px;
+  justify-content:center;
+  background-color:#B2C8DF;
+  border-radius:10px;
+  
+
+}
+
+.textarea{
+  flex:1;
+  margin-right:30px;
+  padding:15px;
+  align-items:center;
+  overflow:wrap;
+  overflow:auto;
+  background-color:transparent;
+  color:black;
+  max-width: 260px;
+  max-height: 100px;
+}
+
+.buttons
+{
+  background-color:transparent;
+}
+
+.buttons > button
+{
+
+  background-color:transparent;
+  border-radius:7px;
+  cursor:pointer;
+  border-color:transparent;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left:0;
+
+
+}
+
+.operation_button
+{
+  color:black;
+  background-color:transparent;
+  width:15px;
+  height:15px;
+}
+
+
