@@ -98,6 +98,9 @@ Make sure the manifest.json file has the following content
 10) Create, edit and delete tasks.
 
 
+## Challenges faced:
+1) Adding the edit button
+2) Figuring out how to render it as a chrome extension and what to include in manifest.json file
 
 
 
